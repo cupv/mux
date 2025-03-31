@@ -1,4 +1,4 @@
-# Gorilla/Mux + Graceful Shuwdown by CuPV
+# Gorilla/Mux + Graceful Shuwdown
 
 This project is an HTTP API built using `mux`, following the Clean Architecture pattern with a PostgreSQL database.
 
