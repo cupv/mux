@@ -10,7 +10,7 @@ import (
     "syscall"
     "time"
 
-    "github.com/cupv/mux/internal/services/card/handlers"
+    "github.com/cupv/mux/internal/.mn/card/handlers"
 )
 
 // Runner defines the interface for running and shutting down a server

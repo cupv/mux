@@ -17,7 +17,7 @@ func InitRouter() *mux.Router {
 	router := mux.NewRouter()
 
 	// Define routes for Vocabulary Card API
-	router.HandleFunc("/card", GetCards).Methods("GET")
+	router.HandleFunc("/cards", GetCards).Methods("GET")
 	router.HandleFunc("/card", CreateCard).Methods("POST")
 	router.HandleFunc("/card/{id}", GetCard).Methods("GET")
 	router.HandleFunc("/card/{id}", UpdateCard).Methods("PUT")
