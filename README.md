@@ -11,7 +11,7 @@ This project is an HTTP API built using `mux`, following the Clean Architecture 
 ## Installation
 ### Clone the repository
 ```sh
-git clone [<repository-url>](https://github.com/cupv/mux.git)
+git clone https://github.com/cupv/mux.git
 cd mux
 ```
 
