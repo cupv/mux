@@ -1,6 +1,6 @@
 # Gorilla/Mux + Graceful Shuwdown
 
-This project is an HTTP API built using `mux`, following the Clean Architecture pattern with a PostgreSQL database.
+This project is an HTTP API built using `mux`, following the Clean Architecture pattern with a MySQL database.
 
 ## Features
 - **Mux Routing**: Uses `mux` for defining API routes.
