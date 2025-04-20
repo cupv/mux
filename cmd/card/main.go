@@ -95,7 +95,7 @@ func main() {
 	flag.Parse()
 
 	// Load config
-	config, err := config.LoadConfigMySQL()
+	config, err := config.LoadConfig()
 	if err != nil {
 		return
 	}

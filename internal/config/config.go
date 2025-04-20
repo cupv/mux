@@ -15,7 +15,7 @@ type Config struct {
 	DBPassword string
 }
 
-func LoadConfigMySQL() (*Config, error) {
+func LoadConfig() (*Config, error) {
 
 	err := godotenv.Load()
 
