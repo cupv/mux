@@ -119,6 +119,8 @@ func main() {
 	// Initialize router and server
 	router := mux.NewRouter()
 	router.HandleFunc("/cards", handler.GetCards).Methods("GET")
+	router.HandleFunc("/card", handler.Create).Methods("POST")
+
 	addr := ":" + *port
 	server := NewRealServer(addr, router)
 
