@@ -14,11 +14,20 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
-      - mysql-network
+      - app-network
+
+  card-redis:
+    image: redis:6.2
+    container_name: card-redis
+    command: ["redis-server", "--requirepass", "abcde12345-"] # Password set
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
 
 volumes:
   mysql-data:
 
 networks:
-  mysql-network:
+  app-network:
     driver: bridge
